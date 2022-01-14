@@ -1,0 +1,22 @@
+.container{
+    width: 500px;
+    height: 500px;
+    
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.card{
+background-color: blue;
+color: blue;
+display:grid;
+grid-template-rows: 1fr 1fr 1fr;
+
+
+}
+.maru{
+    background-color: green;
+    border-radius: 15px;
+
+}
