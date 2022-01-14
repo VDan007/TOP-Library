@@ -35,14 +35,10 @@ const container = document.querySelector(".container");
 
 
 
-function fiveadd(){
-  for(let i = 0; i < 5; i++){
-    add();
-  }
-}
+
 
 function addNewBook(){
-
+add();
 }
 
 const newBook = document.querySelector("#newBook");
