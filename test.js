@@ -23,6 +23,7 @@ function add (){
   for(let i = 0;i<3;i++){ 
     const row = document.createElement("div");
     row.classList.add("maru");
+    row.setAttribute("id",`row${i}`);
     card.appendChild(row);
     
      }
@@ -39,3 +40,10 @@ function fiveadd(){
     add();
   }
 }
+
+function addNewBook(){
+
+}
+
+const newBook = document.querySelector("#newBook");
+newBook.addEventListener("click",addNewBook);
