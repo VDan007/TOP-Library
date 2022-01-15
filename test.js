@@ -32,14 +32,23 @@ function add (){
 }
 
 const container = document.querySelector(".container");
+const popup = document.querySelector(".popup");
+const overlay = document.querySelector("#overlay");
 
 
 
 
 
 function addNewBook(){
-add();
+popup.classList.add("active");
+overlay.classList.add("active");
+}
+function removeActive(){
+popup.classList.remove("active");
+overlay.classList.remove("active");
 }
 
 const newBook = document.querySelector("#newBook");
 newBook.addEventListener("click",addNewBook);
+const popupCloseBtn = document.querySelector("#popupCloseBtn");
+popupCloseBtn.addEventListener("click",removeActive);
