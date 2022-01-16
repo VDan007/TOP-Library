@@ -84,3 +84,4 @@ addBook.addEventListener("click",add);
 const cardSlot1 = document.createElement("div");
 const cardSlot2 = document.createElement("div");
 const cardSlot3 = document.createElement("div");
+

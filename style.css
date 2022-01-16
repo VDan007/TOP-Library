@@ -15,16 +15,16 @@ display:grid;
 grid-template-rows: 2fr 2fr 2fr 1fr;
 }
 
-.questions{
-    display: flex;
-    justify-content:space-between;
-    flex-wrap: wrap;
-}
+
 
 .questionsDiv{
     display: flex;
     justify-content:space-between;
+    padding-left:15px;
+    padding-right:15px;
 }
+
+
 
 .cardSlot4{
     display:flex;
@@ -39,6 +39,10 @@ background-color:red;
 #deleteBtn{
 flex:1;
 background-color:red;
+}
+
+#addBook{
+    margin-left:15px;
 }
 
 
