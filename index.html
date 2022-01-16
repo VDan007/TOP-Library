@@ -21,11 +21,27 @@
         <h1>Add new book</h1>
         <button id="popupCloseBtn">&times;</button>
     </div>
-    <div>
-        <label>Title of the Book:</label>
-        <input type="text" id="bookTitle" placeholder="Title of the book">
-        <input type="number" id="bookPages" placeholder="Pages of the book">
-        <input type="text" id="bookAuthor" placeholder="Author of the book">
+    <div class = "questions">
+        <div class = "questionsDiv">
+            <div>
+                <label>Title of the Book:</label>
+            </div>
+            <div>
+                <input type="text" id="bookTitle" placeholder="Title of the book">
+            </div>
+            </div>
+        <div class = "questionsDiv">
+            <label>Pages:</label>
+            <input type="number" id="bookPages" placeholder="Pages of the book">
+        </div>
+        <div class = "questionsDiv">
+            <label>Author of the Book:</label>
+            <input type="text" id="bookAuthor" placeholder="Author of the book">
+        </div> 
+        <div class = "questionsDiv">
+            <label>Have you read it?</label>
+            <input type="checkbox" id = "readOrNot">
+        </div>
         <button id="addBook" >add</button>
     </div>
 </div>

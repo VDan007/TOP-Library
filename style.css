@@ -12,16 +12,34 @@
 background-color: blue;
 color: red;
 display:grid;
-grid-template-rows: 1fr 1fr 1fr;
-
-
-}
-.maru{
-    background-color: green;
-    border-radius: 15px;
-
+grid-template-rows: 2fr 2fr 2fr 1fr;
 }
 
+.questions{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+.questionsDiv{
+    display: flex;
+    justify-content:space-between;
+}
+
+.cardSlot4{
+    display:flex;
+    justify-content:space-between;
+    background-color:yellowgreen;
+}
+
+#haveYouReadBtn{
+    flex:1;
+background-color:red;
+}
+#deleteBtn{
+flex:1;
+background-color:red;
+}
 
 
  .popup{
@@ -35,7 +53,7 @@ grid-template-rows: 1fr 1fr 1fr;
     background-color: yellowgreen;
     z-index: 10;
     width:400px;
-    max-width: 60%;
+    max-width: 80%;
  }
 
  .popup.active{
